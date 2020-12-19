@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'PixelDigivolve-Italic';
+  src: url('PixelDigivolve-Italic.eot');
+  src: url('PixelDigivolve-Italic.eot?#iefix') format('embedded-opentype'),
+       url('PixelDigivolve-Italic.svg#PixelDigivolve-Italic') format('svg'),
+       url('PixelDigivolve-Italic.ttf') format('truetype'),
+       url('PixelDigivolve-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
