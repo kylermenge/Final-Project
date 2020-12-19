@@ -4,19 +4,22 @@ body {
 
 
 @font-face {
-  font-family: 'title font';
+  font-family: Pixel;
   src: url('/static/fonts/PixelDigivolveItalic.otf');
-  /*      url('/fonts/providence-bold.svg#providence-bold') format('svg');*/
-        font-weight: normal;
-        font-style: normal;
-  font-family: 'subheading font';
-  src: url('/static/fonts/brandon-grotesque-black-58a8a3e824392.otf');
-  font-family: 'body font';
+}
+
+@font-face {
+  font-family: Body;
   src: url('/static/fonts/brandon-grotesque-light-58a8a4b38001d.otf');
 }
 
+@font-face {
+  font-family: Subheading;
+  src: url('/static/fonts/brandon-grotesque-black-58a8a3e824392.otf');
+}
+
 h1 {
-  font-family: "title font";
+  font-family: Pixel;
   font-size: 100px;
   color: white;
   text-align: center;
@@ -24,13 +27,13 @@ h1 {
 }
 
 h2 {
-  font-family: "subheading font";
+  font-family: Subheading;
   color: white;
   text-align: center;
 }
 
 h3 {
-  font-family: "subheading font";
+  font-family: Body;
   font-size: 30px;
   color: white;
   text-align: center;
@@ -50,12 +53,12 @@ p {
 label {
   display: block;
   padding-bottom: 5px;
-  font-family: "body font";
+  font-family: Body;
   font-size: 20px;
 }
 
 input[type=text] {
-  font-family: "body font";
+  font-family: Body;
   color: white;
   font-size: 15px;
   display: inline-block;
@@ -85,7 +88,7 @@ p {
 }
 
 input[type=submit] {
-  font-family: "subheading font";
+  font-family: Subheading;
   font-size: 20px;
   padding: 10px 25px;
   margin: 4px 2px;
