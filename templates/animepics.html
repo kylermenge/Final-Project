@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for("static",filename="styles/mystyle.css") }}">
+<title>Anime Mood Board</title>
+</head>
+<body>
+<h1>Mood board</h1>
+<h3 style = "font-size: 35px">{{ title }}</h3>
+</body>
+<div class="row">
+    {% for col in pics %}
+        <div class="column">
+        {% for image in col %}
+            <img src={{ image }}>
+        {% endfor %}
+        </div>
+    {% endfor %}
+<div>
+    <h3 style="font-size: 25px; font-family: 'Brandon Grotesque Light'">Wrong anime? Try submitting a different image, the more unique the better.</h3>
+</div>
+</div>
+</html>

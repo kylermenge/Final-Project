@@ -1,0 +1,112 @@
+body {
+  background-color: darkgray;
+}
+
+h1 {
+  font-family: "Pixel Digivolve";
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  font-family: "Brandon Grotesque Black";
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Brandon Grotesque Black";
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin: auto;
+  width:250px;
+  padding: 25px;
+}
+
+p {
+  text-align: center;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+  font-family: "Brandon Grotesque Light";
+  font-size: 20px;
+}
+
+input[type=text] {
+  font-family: "Brandon Grotesque Light";
+  color: white;
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 14px;
+  margin-bottom: 40px;
+  border: none;
+  outline: none;
+  background-color: darkgray;
+  border-bottom: 2px solid white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px darkgray inset !important;
+}
+
+div {
+  margin-bottom: 50px;
+}
+
+p {
+  text-align: center;
+}
+
+input[type=submit] {
+  font-family: "Brandon Grotesque Black";
+  font-size: 20px;
+  padding: 10px 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 12%;
+  max-width: 14%;
+  padding: 0 4px;
+  /*justify-content: space-between;*/
+  background-color: lightgray;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  background-color: lightgray;
+}
